@@ -58,6 +58,7 @@ class Example(QWidget):
 
 
     def changeTitle(self, state):
+        #根据状态实现窗口标题切换的功能
         print("state = ",state)
         '''
         Qt.Checked为int类型，值为2，代表组件没有被选中
