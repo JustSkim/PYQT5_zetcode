@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-例2  带窗口图标
+例2  带图标窗口
 ZetCode PyQt5 tutorial 
 
 This example shows an icon

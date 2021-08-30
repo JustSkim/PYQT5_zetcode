@@ -15,7 +15,7 @@ Last edited: August 2017
 
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
-
+#注意QtWidgets是一个模块，QWidget是该模块下的一个类，有没有s天差地别
 
 if __name__ == '__main__':
 
@@ -58,9 +58,9 @@ if __name__ == '__main__':
     #为窗口添加了一个在标题栏展示的标题
     w.setWindowTitle('Simple')
 
-    #show()能让控件在桌面上显示出来。控件在内存里创建，之后才能在显示器上显示出来。
+    #show()能让窗口在桌面上显示出来。窗口在内存里创建，之后才能在显示器上显示出来。
     w.show()
 
     sys.exit(app.exec_())
-    #当调用exit()方法或直接销毁主控件时，主循环就会结束。sys.exit()方法能确保主循环安全退出。外部环境会收到主控件如何结束的信息。
+    #当调用exit()方法或直接销毁窗口时，主循环就会结束。sys.exit()方法能确保主循环安全退出。外部环境会收到窗口如何结束的信息。
     #exec_()之所以有个下划线，是因为exec是一个Python的关键字。
